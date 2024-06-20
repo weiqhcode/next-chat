@@ -30,8 +30,8 @@ jobs:
         context: .  # 构建上下文为当前目录
         file: ./Dockerfile  # 指定 Dockerfile 文件的路径
         push: true  # 构建后自动推送镜像
-        tags: yourusername/yourimagename:latest  # 指定推送到 Docker Hub 的镜像标签，替换 yourusername/yourimagename 为实际的 Docker Hub 用户名和镜像名称
+        tags: weiqh/next-chat:latest  # 指定推送到 Docker Hub 的镜像标签，替换 yourusername/yourimagename 为实际的 Docker Hub 用户名和镜像名称
 
     - name: Run image  # 步骤名称：运行镜像
       run: |
-        docker run yourusername/yourimagename:latest  # 运行刚刚推送的 Docker 镜像，替换 yourusername/yourimagename 为实际的 Docker Hub 用户名和镜像名称
+        docker run weiqh/next-chat:latest  
