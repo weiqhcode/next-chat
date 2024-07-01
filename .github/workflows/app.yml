@@ -32,6 +32,6 @@ jobs:
         push: true  # 构建后自动推送镜像
         tags: weiqh/next-chat:latest  # 指定推送到 Docker Hub 的镜像标签，替换 yourusername/yourimagename 为实际的 Docker Hub 用户名和镜像名称
 
-    - name: Run image  # 步骤名称：运行镜像
-      run: |
-        docker run weiqh/next-chat:latest  
+    # - name: Run image  # 步骤名称：运行镜像
+    #   run: |
+    #     docker run weiqh/next-chat:latest  
