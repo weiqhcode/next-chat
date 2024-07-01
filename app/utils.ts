@@ -252,8 +252,7 @@ export function isVisionModel(model: string) {
 
   const visionKeywords = [
     "gpt-4-s-read-image",
-    "gpt-4-o-read-image",
-    "gpt-4-all"
+    "gpt-4-o-read-image"
   ];
   const isGpt4Turbo =
     model.includes("gpt-4-turbo") && !model.includes("preview");
