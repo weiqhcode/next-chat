@@ -254,7 +254,8 @@ export function isVisionModel(model: string) {
     "gpt-4-s-read-image",
     "gpt-4-o-read-image",
     "gpt-4-mobile-read-image",
-    "claude-3"
+    "claude-3-opus-20240229",
+    "claude-3-sonnet-20240229"
   ];
   const isGpt4Turbo =
     model.includes("gpt-4-turbo") && !model.includes("preview");
