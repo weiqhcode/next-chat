@@ -147,13 +147,16 @@ const openaiModels = [
   "gpt-4-turbo",
   "gpt-4-turbo-preview",
   "gpt-4o",
+  "gpt-4o-mini",
+  "gpt-4-mobile",
   "gpt-4o-2024-05-13",
   "gpt-4-vision-preview",
   "gpt-4-turbo-2024-04-09",
   "claude-3-sonnet-20240229",
   "claude-3-opus-20240229",
   "gpt-4-s-read-image",
-  "gpt-4-o-read-image"
+  "gpt-4-o-read-image",
+  "gpt-4-mobile-read-image"
 ];
 
 const googleModels = [
